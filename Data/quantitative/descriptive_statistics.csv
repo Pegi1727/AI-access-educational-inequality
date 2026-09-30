@@ -1,0 +1,7 @@
+Outcome,Group,n,Mean,SD,Median,Q1,Q3,Minimum,Maximum
+Lexical_TTR,Premium,30,0.66486667,0.071957714,0.661,0.63275,0.70875,0.527,0.806
+Lexical_TTR,Free,30,0.4178,0.099992551,0.4165,0.37825,0.452,0.209,0.691
+Syntactic_Cscore,Premium,30,4.041,0.60493573,4.075,3.6575,4.475,2.85,5.32
+Syntactic_Cscore,Free,30,2.773,0.83954893,2.92,2.055,3.3175,1.53,4.65
+Cohesion_Score,Premium,30,8.4133333,0.72193864,8.45,8,8.95,6.5,9.5
+Cohesion_Score,Free,30,6.42,1.0841809,6.4,5.425,7,4.7,9.2
