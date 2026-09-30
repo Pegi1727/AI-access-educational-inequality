@@ -1,0 +1,6 @@
+﻿Variable Name,Data Type,Description
+Participant_ID,String,Unique identifier for each participant (P01 to P60)
+Group,Categorical (Premium / Free),"Tool access condition: Group A (Premium: GPT-4, Claude 3.5) vs. Group B (Free: GPT-3.5, Gemini Free)"
+Lexical_TTR,Continuous (0.0 to 1.0),"Type-Token Ratio, representing lexical diversity/sophistication"
+Syntactic_Cscore,Continuous (> 0),"C-score, representing syntactic complexity in academic writing"
+Cohesion_Score,Continuous (0.0 to 10.0),Cohesion rating scored by two independent PhD experts (ICC = 0.92)
