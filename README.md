@@ -82,27 +82,12 @@ Qualitative analysis of researcher experiences identified three core themes:
 bash
 git clone https://github.com/Pegi1727/AI-access-educational-inequality.git
 cd AI-access-educational-inequality
-
-pip install numpy pandas scipy statsmodels matplotlib seaborn
-python scripts/analysis_sdg4.py
-2. R Replication
-R
-install.packages(c("tidyverse", "effsize", "rstatix"))
-source("scripts/analysis_sdg4.R")
 📜 Ethical Note on Qualitative Transcripts
 In compliance with human subjects protections, GDPR, and anonymization protocols, raw interview transcripts have been replaced with 15 synthetic qualitative exemplars (SYN-FREE-01 to 08 and SYN-PREMIUM-01 to 07). These files preserve the complete thematic coding structure without exposing participant identities.
-------------------------------------------------------------------------------------------------------------
-📚 Citation
-APA 7th Edition
-text
-Merrikhi, P. (2026). Decoupling Education from Geopolitics: AI Accessibility, Educational Inequality, and Educational Resilience in Sanctioned Environments. Zenodo. https://doi.org/10.5281/zenodo.23075043
-BibTeX
-bibtex
+--------------------------------
 @dataset{merrikhi_2026_sdg4,
   author       = {Pegah Merrikhi},
-  title        = {{Decoupling Education from Geopolitics: AI Accessibility, 
-Educational Inequality, and Educational Resilience in 
-Sanctioned Environments}},
+  title        = {{Decoupling Education from Geopolitics: AI Accessibility, Educational Inequality, and Educational Resilience in Sanctioned Environments}},
   month        = oct,
   year         = 2026,
   publisher    = {Zenodo},
@@ -110,7 +95,8 @@ Sanctioned Environments}},
   doi          = {10.5281/zenodo.23075043},
   url          = {https://doi.org/10.5281/zenodo.23075043}
 }
--------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
 
 ## 📂 Repository Structure
 ```text
