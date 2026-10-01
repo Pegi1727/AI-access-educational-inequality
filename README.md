@@ -20,7 +20,7 @@ While generative artificial intelligence is widely celebrated as an educational 
 
 ## 🖼️ Graphical Abstract
 
-![Graphical Abstract](./Figures/graphical_abstract.png)
+![Graphical Abstract](Figures/graphical%20abstarct.png)
 
 *Figure 0.* Conceptual framework illustrating how unilateral geopolitical constraints restrict AI accessibility, exacerbating academic inequality, while sparking educational resilience in alignment with **SDG 4 (Quality Education)**.
 
@@ -42,7 +42,7 @@ While generative artificial intelligence is widely celebrated as an educational 
 
 ### Figure 1: Group Means with 95% Confidence Intervals
 
-![Group Means and 95% Confidence Intervals](./Figures/group_means_95ci.png)
+![Group Means and 95% Confidence Intervals](Figures/group_means_95ci.png)
 
 *Figure 1.* Clear separation between Premium and Free AI tiers across all linguistic dimensions. Error bars indicate 95% confidence intervals around group means ($p < .001$ across all indicators).
 
@@ -52,10 +52,10 @@ While generative artificial intelligence is widely celebrated as an educational 
 
 | SDG Target | Visual Context | Thematic Alignment in Sanctioned Contexts |
 | :--- | :---: | :--- |
-| **SDG 1: No Poverty** | <img src="./Figures/sdg1.jpg" width="220" alt="SDG 1"> | Economic sanctions restrict international payment gateways, turning premium AI subscriptions into inaccessible luxury goods. |
-| **SDG 2: Zero Hunger** | <img src="./Figures/sdg2.jpg" width="220" alt="SDG 2"> | Academic deprivation creates structural knowledge scarcity and resource poverty among developing-world researchers. |
-| **SDG 3: Good Health & Well-Being** | <img src="./Figures/sdg3.jpg" width="220" alt="SDG 3"> | High digital friction, constant IP bans, and circumventing geoblocking induce chronic academic burnout and cognitive fatigue. |
-| **SDG 4: Quality Education** | <img src="./Figures/sdg4.jpg" width="220" alt="SDG 4"> | The core imperative: Ensuring inclusive, equitable quality education and lifelong learning opportunities for all, divorced from geopolitical borders. |
+| **SDG 1: No Poverty** | <img src="Figures/sgd1.jpg" width="220" alt="SDG 1"> | Economic sanctions restrict international payment gateways, turning premium AI subscriptions into inaccessible luxury goods. |
+| **SDG 2: Zero Hunger** | <img src="Figures/sgd2.jpg" width="220" alt="SDG 2"> | Academic deprivation creates structural knowledge scarcity and resource poverty among developing-world researchers. |
+| **SDG 3: Good Health & Well-Being** | <img src="Figures/sgd3.jpg" width="220" alt="SDG 3"> | High digital friction, constant IP bans, and circumventing geoblocking induce chronic academic burnout and cognitive fatigue. |
+| **SDG 4: Quality Education** | <img src="Figures/sgd4.jpg" width="220" alt="SDG 4"> | The core imperative: Ensuring inclusive, equitable quality education and lifelong learning opportunities for all, divorced from geopolitical borders. |
 
 ---
 
@@ -96,16 +96,56 @@ AI-access-educational-inequality/
 │   └── analysis_sdg4.R                 # Standalone R replication script
 │
 ├── Figures/
-│   ├── graphical_abstract.png          # Visual abstract
+│   ├── graphical abstarct.png          # Visual abstract
 │   ├── group_means_95ci.png            # Main quantitative plot (95% CI)
-│   ├── sdg1.jpg                        # SDG 1: No Poverty
-│   ├── sdg2.jpg                        # SDG 2: Zero Hunger
-│   ├── sdg3.jpg                        # SDG 3: Good Health and Well-Being
-│   └── sdg4.jpg                        # SDG 4: Quality Education
+│   ├── sgd1.jpg                        # SDG 1: No Poverty
+│   ├── sgd2.jpg                        # SDG 2: Zero Hunger
+│   ├── sgd3.jpg                        # SDG 3: Good Health and Well-Being
+│   └── sgd4.jpg                        # SDG 4: Quality Education
 │
 ├── supplementary/
 │   ├── Appendices.docx
 │   └── Supplementary_Materials_Final.docx
 │
 ├── LICENSE
-└── README.md
+└
+------------------------------------------------------------------------------------------------------------------------------
+🚀 Reproduction & Setup
+1. Python Replication
+bash
+git clone https://github.com/Pegi1727/AI-access-educational-inequality.git
+cd AI-access-educational-inequality
+
+pip install numpy pandas scipy statsmodels matplotlib seaborn
+python scripts/analysis_sdg4.py
+2. R Replication
+R
+install.packages(c("tidyverse", "effsize", "rstatix"))
+source("scripts/analysis_sdg4.R")
+📜 Ethical Note on Qualitative Transcripts
+In compliance with human subjects protections, GDPR, and anonymization protocols, raw interview transcripts have been replaced with 15 synthetic qualitative exemplars (SYN-FREE-01 to 08 and SYN-PREMIUM-01 to 07). These files preserve the complete thematic coding structure without exposing participant identities.
+------------------------------------------------------------------------------------------------------------
+📚 Citation
+APA 7th Edition
+text
+Merrikhi, P. (2026). Decoupling Education from Geopolitics: AI Accessibility, Educational Inequality, and Educational Resilience in Sanctioned Environments. Zenodo. https://doi.org/10.5281/zenodo.23075043
+BibTeX
+bibtex
+@dataset{merrikhi_2026_sdg4,
+  author       = {Pegah Merrikhi},
+  title        = {{Decoupling Education from Geopolitics: AI Accessibility, 
+Educational Inequality, and Educational Resilience in 
+Sanctioned Environments}},
+  month        = oct,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v0.1.0},
+  doi          = {10.5281/zenodo.23075043},
+  url          = {https://doi.org/10.5281/zenodo.23075043}
+}
+-------------------------------------------------------------------------------
+📄 License
+Data & Documentation: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Code & Scripts: MIT License
+
+── README.md
