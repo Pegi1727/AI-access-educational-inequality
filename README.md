@@ -75,40 +75,7 @@ Qualitative analysis of researcher experiences identified three core themes:
 2. **The "Epistemic Sanction":** Geopolitical restrictions on educational technologies act as unintentional intellectual embargoes on researchers who are completely unassociated with political regimes.
 3. **Call for Epistemic Decoupling:** Global academic bodies, publishers, and AI developers must establish humanitarian carve-outs, universal educational licenses, and open-tier scientific access under **UN SDG 4** mandates.
 
----
 
-## 📂 Repository Structure
-```text
-AI-access-educational-inequality/
-│
-├── data/
-│   ├── SDG4_Quant_Data.csv             # Quantitative outcome measures (n = 60)
-│   ├── SDG4_Codebook.csv               # Variable definitions and scale metadata
-│   ├── SDG4_Qual_Codes.csv             # Qualitative thematic codebook
-│   └── qualitative_transcripts/        # 15 Synthetic transcripts (SYN-FREE / SYN-PREMIUM)
-│
-├── notebooks/
-│   ├── analysis_sdg4.ipynb             # Executed Python Jupyter Notebook (Publication figures baked-in)
-│   └── analysis_sdg4_R.ipynb           # Executed R Jupyter Notebook
-│
-├── scripts/
-│   ├── analysis_sdg4.py                # Standalone Python replication script
-│   └── analysis_sdg4.R                 # Standalone R replication script
-│
-├── Figures/
-│   ├── graphical abstarct.png          # Visual abstract
-│   ├── group_means_95ci.png            # Main quantitative plot (95% CI)
-│   ├── sgd1.jpg                        # SDG 1: No Poverty
-│   ├── sgd2.jpg                        # SDG 2: Zero Hunger
-│   ├── sgd3.jpg                        # SDG 3: Good Health and Well-Being
-│   └── sgd4.jpg                        # SDG 4: Quality Education
-│
-├── supplementary/
-│   ├── Appendices.docx
-│   └── Supplementary_Materials_Final.docx
-│
-├── LICENSE
-└
 ------------------------------------------------------------------------------------------------------------------------------
 🚀 Reproduction & Setup
 1. Python Replication
@@ -144,6 +111,39 @@ Sanctioned Environments}},
   url          = {https://doi.org/10.5281/zenodo.23075043}
 }
 -------------------------------------------------------------------------------
+
+## 📂 Repository Structure
+```text
+AI-access-educational-inequality/
+│
+├── data/
+│   ├── SDG4_Quant_Data.csv             # Quantitative outcome measures (n = 60)
+│   ├── SDG4_Codebook.csv               # Variable definitions and scale metadata
+│   ├── SDG4_Qual_Codes.csv             # Qualitative thematic codebook
+│   └── qualitative_transcripts/        # 15 Synthetic transcripts (SYN-FREE / SYN-PREMIUM)
+│
+├── notebooks/
+│   ├── analysis_sdg4.ipynb             # Executed Python Jupyter Notebook (Publication figures baked-in)
+│   └── analysis_sdg4_R.ipynb           # Executed R Jupyter Notebook
+│
+├── scripts/
+│   ├── analysis_sdg4.py                # Standalone Python replication script
+│   └── analysis_sdg4.R                 # Standalone R replication script
+│
+├── Figures/
+│   ├── graphical abstarct.png          # Visual abstract
+│   ├── group_means_95ci.png            # Main quantitative plot (95% CI)
+│   ├── sgd1.jpg                        # SDG 1: No Poverty
+│   ├── sgd2.jpg                        # SDG 2: Zero Hunger
+│   ├── sgd3.jpg                        # SDG 3: Good Health and Well-Being
+│   └── sgd4.jpg                        # SDG 4: Quality Education
+│
+├── supplementary/
+│   ├── Appendices.docx
+│   └── Supplementary_Materials_Final.docx
+│
+├── LICENSE
+
 📄 License
 Data & Documentation: Creative Commons Attribution 4.0 International (CC BY 4.0)
 Code & Scripts: MIT License
